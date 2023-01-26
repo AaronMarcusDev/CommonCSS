@@ -1,0 +1,315 @@
+/* create the most commonly used css classes */
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.clear-right {
+    clear: right;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.clear-none {
+    clear: none;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.vertical-top {
+    vertical-align: top;
+}
+
+.vertical-middle {
+    vertical-align: middle;
+}
+
+.vertical-bottom {
+    vertical-align: bottom;
+}
+
+.vertical-baseline {
+    vertical-align: baseline;
+}
+
+.vertical-text-top {
+    vertical-align: text-top;
+}
+
+.vertical-text-bottom {
+    vertical-align: text-bottom;
+}
+
+.vertical-sub {
+    vertical-align: sub;
+}
+
+.vertical-super {
+    vertical-align: super;
+}
+
+.vertical-top {
+    vertical-align: top;
+}
+
+.vertical-middle {
+    vertical-align: middle;
+}
+
+.vertical-bottom {
+    vertical-align: bottom;
+}
+
+.vertical-baseline {
+    vertical-align: baseline;
+}
+
+.vertical-text-top {
+    vertical-align: text-top;
+}
+
+.vertical-text-bottom {
+    vertical-align: text-bottom;
+}
+
+
+.vertical-sub {
+    vertical-align: sub;
+}
+
+.vertical-super {
+    vertical-align: super;
+}
+
+
+.font-bold {
+    font-weight: bold;
+}
+
+
+.font-italic {
+    font-style: italic;
+}
+
+
+.font-caps {
+    text-transform: uppercase;
+}
+
+
+.font-small-caps {
+    font-variant: small-caps;
+}
+
+
+.font-light {
+    font-weight: 300;
+}
+
+
+.font-normal {
+    font-weight: normal;
+}
+
+
+.font-medium {
+    font-weight: 500;
+}
+
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.font-caps {
+    text-transform: uppercase;
+}
+
+.font-small-caps {
+    font-variant: small-caps;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image-inline-block {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image-inline {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image-table-cell {
+    display: table-cell;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image-table-caption {
+    display: table-caption;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image-table-row {
+    display: table-row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image-table-row-group {
+    display: table-row-group;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image-table-column {
+    display: table-column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image-table-column-group {
+    display: table-column-group;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image-table-footer-group {
+    display: table-footer-group;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image-table-header-group {
+    display: table-header-group;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image-table-cell {
+    display: table-cell;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image-table-caption {
+    display: table-caption;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image-table-row {
+    display: table-row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image-table-row-group {
+    display: table-row-group;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image-table-column {
+    display: table-column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image-table-column-group {
+    display: table-column-group;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image-table-footer-group {
+    display: table-footer-group;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image-table-header-group {
+    display: table-header-group;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image-table-cell {
+    display: table-cell;
+    margin-left: auto;
+    margin-right: auto;
+}
