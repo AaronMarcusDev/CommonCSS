@@ -15,10 +15,13 @@ fn main() {
 	}
 	
 	mut source := os.read_file(args[1])!
+	mut result := ''
 	
 	for line in source.split_into_lines() {
-		if line.starts_with('#') {
-			continue
-		}
+		if line.contains('blue') {
+			result += 'a'
+		} 
 	}
+
+	println(result)
 }
