@@ -106,7 +106,6 @@
     vertical-align: text-bottom;
 }
 
-
 .vertical-sub {
     vertical-align: sub;
 }
@@ -115,46 +114,37 @@
     vertical-align: super;
 }
 
-
 .font-bold {
     font-weight: bold;
 }
-
 
 .font-italic {
     font-style: italic;
 }
 
-
 .font-caps {
     text-transform: uppercase;
 }
-
 
 .font-small-caps {
     font-variant: small-caps;
 }
 
-
 .font-light {
     font-weight: 300;
 }
-
 
 .font-normal {
     font-weight: normal;
 }
 
-
 .font-medium {
     font-weight: 500;
 }
 
-
 .font-bold {
     font-weight: bold;
 }
-
 .font-italic {
     font-style: italic;
 }
