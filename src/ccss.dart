@@ -1,8 +1,14 @@
 import 'dart:io';
 
+Map<String, String> classes = {
+  "center": ".center {display: grid;place-items: center;align-items: center;justify-items: center;align-content: center;justify-content: center;text-align: center;margin: auto}",
+  "a" : "= c^2",
+};
+
 void main(List<String> args) {
   if (args.length != 1) {
-    print('Usage: ccss <file>');
+    print("ERROR: Invalid number of arguments");
+    print("USAGE: ccss <file>");
     exit(1);
   }
 
@@ -19,7 +25,7 @@ void main(List<String> args) {
     print("ERROR: Could not read file.");
     exit(1);
   }
-  
+
   if (source.trim() == '') print('ERROR: Empty file.');
 
   List<String> chars = source.split('');
@@ -48,8 +54,9 @@ void main(List<String> args) {
   for (String string in result) {
     List<String> words = string.trim().split(' ');
     for (String word in words) {
-      if (word == "center") {
-        CSSResult.add(".center {display: grid;place-items: center;align-items: center;justify-items: center;align-content: center;justify-content: center;text-align: center;margin: auto}");
+      if (classes.containsKey(word)) {
+        CSSResult.add(classes[word]!);
+        break;
       }
     }
   }
