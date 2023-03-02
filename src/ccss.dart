@@ -2,7 +2,9 @@ import 'dart:io';
 
 Map<String, String> classes = {
   "center": ".center {display: grid;place-items: center;align-items: center;justify-items: center;align-content: center;justify-content: center;text-align: center;margin: auto}",
-  "a" : "= c^2",
+  "center-text" : "{text-align: center;}",
+  "center-content" : "{display: grid;place-items: center;align-items: center;justify-items: center;align-content: center;justify-content: center;text-align: center;margin: auto}",
+  
 };
 
 void main(List<String> args) {
